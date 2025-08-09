@@ -10,7 +10,7 @@ const app = express();
 const PORT = process.env.PORT || 5000;
 
 // Middleware
-const allowedOrigins = ['http://localhost:3000', 'https://your-frontend-live-url.com']; // Add your live URL later
+const allowedOrigins = ['http://localhost:3000', 'https://url-shortener-frontend-liard-one.vercel.app']; // Add your live URL later
 
 app.use(cors({
   origin: function (origin, callback) {
